@@ -1,9 +1,21 @@
 import React from "react";
+import { Header } from "./Header";
+import { Footer } from "./Footer";
 
-export function App(){
+export function App() {
 
-    return(
-        <div><h1>Hello</h1></div>
+    return (
+        <div>
+            <div>
+                <Header />
+            </div>
+            <div>
+                <Header />
+            </div>
+            <div>
+                <Footer />
+            </div>
+        </div>
     );
 
 }
