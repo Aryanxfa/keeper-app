@@ -20,7 +20,7 @@ header {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-header h1{
+header h1 {
     color: #fff;
     font-family: 'Rowdies', cursive;
     font-weight: 200;
@@ -35,7 +35,7 @@ footer {
 }
 
 footer p {
-    color:#ccc
+    color: #ccc
 }
 
 .note {
@@ -52,9 +52,36 @@ footer p {
     margin-bottom: 6px;
 }
 
-.note p{
+.note p {
     font-size: 1.1em;
     margin-bottom: 10px;
     white-space: pre-wrap;
     word-wrap: break-word;
+}
+
+button.FAB {
+    margin-top: 22px;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    font-size: xx-large;
+    background-color: #0C9;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+html[data-theme='light'] {
+    --background-color: #fff;
+    --text-color: #121416d8;
+    --link-color: #543fd7;
+}
+
+html[data-theme='dark'] {
+    --background-color: #212a2e;
+    --text-color: #F7F8F8;
+    --link-color: #828fff;
 }
